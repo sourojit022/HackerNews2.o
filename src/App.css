@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.StoryDiv:focus {
+  background-color: rgb(240, 240, 240);
+}
+.SingleDataPara {
+  margin: 0px;
+  margin-left: 58px !important;
+}
+
+.ItemSingleDiv {
+  text-align: left !important;
+  padding-left: 40px;
+  width: 95%;
+  background-color: #16a9ee;
+  border: none !important;
+  border-color: none;
+  /* box-shadow: 0 8px 32px 0 rgba(249, 249, 250, 0.37);
+  backdrop-filter: blur( 12.0px ); */
+}
+.ItemSingleDiv:hover {
+  background-color: #16a9ee;
+}
+.LinkClicked {
+  color: black;
+  font-weight: bold;
+}
+.LinkClicked:hover {
+  color: black;
+}
+.LinkClicked:visited {
+  color: rgb(248, 241, 241);
+}
+.BackgorundTheme {
+  background-color: #f6f6ef;
+}
+
+#btnnn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+}
+
+/* login */
+.div2 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.forgot-password {
+  margin-left: -240px;
+}
+
+.full {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 4%;
+  height: 400px;
+  width: 300px;
+  background-color: #fca21163;
+  border: #fca21163 solid;
+  padding: 20px;
+}
+.input2 {
+  border: none;
+  border-bottom: 2px solid #8d99ae;
+  padding: 10px;
+}
+#button2 {
+  background: #14213d;
+  text-align: center;
+  padding: 10px;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 56px;
+  border-radius: 10px;
+  border: none;
+}
+#button2:hover {
+  background-color: rgb(189, 47, 47);
+}
+.user {
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.navi{
+  padding-left:20px;
+  
+}
+#navi1{
+padding-left: 650px;
+}
+a{
+  text-decoration: none !important;
+}
+.navi a{
+  color: whitesmoke !important;
+}

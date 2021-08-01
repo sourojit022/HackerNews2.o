@@ -1,0 +1,59 @@
+.footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display: block;
+  flex-flow: row wrap;
+  padding: 50px 20rem;
+
+  color: white;
+  background-color: #0A1931;
+  margin-top: 50px;
+}
+.container{
+
+    margin-top: 20px;
+  
+    
+}
+.btn{
+  margin:12px;
+ padding:2px 6px;
+
+}
+
+
+
+h2 {
+  font-weight: 600;
+  font-size: 17px;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer li {
+  line-height: 2rem;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer-right {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box a {
+  color: white;
+  margin-right: 40px;
+  font-size: 18px;
+}
+.box a:hover {
+  color: rgba(241, 122, 10, 0.938);
+}
+
+.boxo a {
+  color: bisque;
+  margin-left: 250px;
+}
